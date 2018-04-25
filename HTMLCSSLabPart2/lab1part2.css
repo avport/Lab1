@@ -1,0 +1,149 @@
+.everything {
+   font-family: "Open Sans"; 
+    background-color: #f9fafc;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.flex-container {
+display: flex;
+flex-direction: column;
+}
+
+.navoptions {
+color: black;
+ border-radius: 30px; 
+ margin-bottom: 15px; 
+ text-decoration: none;
+}
+
+.blackbutton {
+color: white;
+background-color: black; 
+border-radius: 30px; 
+width: 90%;
+margin: 10px; 
+text-align: center;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+}
+
+
+.content {
+border-left: 5px solid black; 
+padding-left: 10px;
+}
+
+
+@media only screen and (min-width: 350px) {
+.circles {
+display: none; 
+}
+
+@media only screen and (min-width: 768px) {
+.flex-container {
+justify-content: space-around;
+flex-direction: row;
+}
+
+.navoptions {
+  justify-content: flex-start;
+ border-radius: none; 
+ margin-bottom: none; 
+}
+
+.blackbutton {
+width: 20%;
+margin: 5px; 
+
+}
+
+.navoptions {
+  text-align: flex-end; 
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#footer {
+ justify-content: center;
+  display: flex;
+}
+.circles {
+  display: none; 
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.main {
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+#footer {
+  margin-top: 100px; 
+}
+
+.circles {
+  display: flex; 
+
+
+}
+}
+.orange {
+ background-color: rgba(247, 193, 162, 0.7);  
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ top: 35%; 
+ left: 68%;
+ border-radius: 50%
+}
+.purple {
+ background-color: rgba(207, 130, 213, 0.6);
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 20%; 
+ left: 68%;
+ border-radius: 50%
+
+}
+
+.pink {
+ background-color: rgba(247, 136, 167, 0.6);
+ width: 250px;
+ height: 250px;
+ position: absolute;
+ top: 20%; 
+ left: 54%;
+ border-radius: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
