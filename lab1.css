@@ -1,0 +1,151 @@
+body, p {
+   font-family: "Open Sans"; 
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   border-left: 5px solid grey; 
+   padding: 5px;
+   
+   font-family: "Open Sans"; 
+   border-left: 3px solid #69696a;
+
+}
+
+
+#navlist {
+   float: right;
+}
+
+.topnav {
+   overflow: hidden;
+   color: black;
+   margin-right: 20px;
+
+}
+
+.topnav a {
+   float: right;
+   color: black;
+   text-align: center;
+   padding: 9px 19px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   border-radius: 30px; 
+ color: white;
+ background-color: black; 
+}
+
+.btn {
+  padding: 9px 19px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+
+.btn:hover {
+   background: #3e3e3e;
+}
+
+.button {
+   width: 100%;
+   position: absolute;
+   bottom: 25px;
+   text-align: center;
+}
+
+#logo {
+   width: 40%;
+   float: left;
+}
+
+.main {
+   width: 40%;
+
+}
+.circles {
+   width: 40%;
+   float: right;
+
+}
+/*<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />*/
+
+
+
+.circle {
+ width: 200px;
+ height: 200px;
+ line-height: 200px;
+ border-radius: 50%; /* the magic */
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ text-align: center;
+ color: white;
+ font-size: 16px;
+ text-transform: uppercase;
+ font-weight: 700;
+ margin: 0 auto 40px;
+ position: relative;
+}
+
+.orange {
+ background-color: rgba(247, 193, 162, 0.7);  
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ top: 40%; 
+ left: 68%;
+
+}
+.purple {
+ background-color: rgba(207, 130, 213, 0.6);
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 20%; 
+ left: 68%;
+}
+.pink {
+ background-color: rgba(247, 136, 167, 0.6);
+ width: 250px;
+ height: 250px;
+ position: absolute;
+ top: 20%; 
+ left: 50%;
+}
+
+.main-container {
+   background-color: #f9fafc;
+   height: 500px;
+   padding-bottom: 10px; 
+   position: relative;
+
+}
+
+
+.clear {
+   margin: 30px; 
+}
+
+
+h1 {
+   font-size: 30px; 
+}
+
+.main-contact {
+   position: relative;
+}
+
+
