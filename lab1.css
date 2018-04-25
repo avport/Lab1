@@ -2,31 +2,19 @@ body, p {
    font-family: "Open Sans"; 
 }
 
-ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-}
 
 p {
    border-left: 5px solid grey; 
    padding: 5px;
-   
-   font-family: "Open Sans"; 
+   /*font-family: "Open Sans"; */
    border-left: 3px solid #69696a;
-
 }
 
-
-#navlist {
-   float: right;
-}
 
 .topnav {
    overflow: hidden;
    color: black;
-   margin-right: 20px;
-
+   margin-right: 100px;
 }
 
 .topnav a {
@@ -39,7 +27,7 @@ p {
 }
 
 .topnav a:hover {
-   border-radius: 30px; 
+ border-radius: 30px; 
  color: white;
  background-color: black; 
 }
@@ -67,37 +55,21 @@ p {
 }
 
 #logo {
-   width: 40%;
-   float: left;
+  float: left;
 }
 
 .main {
    width: 40%;
-
 }
+
 .circles {
-   width: 40%;
    float: right;
-
 }
-/*<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />*/
-
 
 
 .circle {
- width: 200px;
- height: 200px;
- line-height: 200px;
- border-radius: 50%; /* the magic */
  -moz-border-radius: 50%;
  -webkit-border-radius: 50%;
- text-align: center;
- color: white;
- font-size: 16px;
- text-transform: uppercase;
- font-weight: 700;
- margin: 0 auto 40px;
- position: relative;
 }
 
 .orange {
@@ -105,7 +77,7 @@ p {
  width: 150px;
  height: 150px;
  position: absolute;
- top: 40%; 
+ top: 35%; 
  left: 68%;
 
 }
@@ -117,6 +89,7 @@ p {
  top: 20%; 
  left: 68%;
 }
+
 .pink {
  background-color: rgba(247, 136, 167, 0.6);
  width: 250px;
@@ -131,12 +104,6 @@ p {
    height: 500px;
    padding-bottom: 10px; 
    position: relative;
-
-}
-
-
-.clear {
-   margin: 30px; 
 }
 
 
@@ -144,8 +111,5 @@ h1 {
    font-size: 30px; 
 }
 
-.main-contact {
-   position: relative;
-}
 
 
