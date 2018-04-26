@@ -12,7 +12,7 @@ flex-direction: column;
 }
 
 .navoptions {
-color: black;
+color: #69696a;
  border-radius: 30px; 
  margin-bottom: 15px; 
  text-decoration: none;
@@ -34,6 +34,7 @@ padding: 10px;
 .content {
 border-left: 5px solid black; 
 padding-left: 10px;
+color: #69696a;
 }
 
 
