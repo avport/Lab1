@@ -1,0 +1,159 @@
+.everything {
+   font-family: "Open Sans"; 
+    background-color: #f9fafc;
+    width: 80%;
+    margin: 0 auto; 
+    padding: 30px;
+}
+
+.navright {
+display: flex;
+flex-direction: column;
+}
+
+.navoptions {
+color: #69696a;
+ border-radius: 30px; 
+ margin-bottom: 15px; 
+ text-decoration: none;
+}
+
+.blackbutton {
+color: white;
+background-color: black; 
+border-radius: 30px; 
+width: 90%;
+margin: 10px; 
+text-align: center;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+}
+
+
+.content {
+border-left: 5px solid black; 
+padding-left: 10px;
+color: #69696a;
+}
+
+
+@media only screen and (min-width: 350px) {
+.circles {
+display: none; 
+}
+
+@media only screen and (min-width: 768px) {
+.navright {
+justify-content: flex-end;
+flex-direction: row;
+/*width: 70%;*/
+margin-left: auto; 
+width: 70%;
+}
+
+.navoptions {
+  justify-content: flex-end;
+ border-radius: none; 
+ margin-bottom: none; 
+ padding-right: 10px; 
+ padding-top: 15px;
+}
+
+.blackbutton {
+width: 20%;
+margin: 5px; 
+
+}
+
+.navoptions {
+  text-align: flex-end; 
+}
+
+h4 {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  width: 20%;
+  float: left; 
+}
+
+#footer {
+ justify-content: center;
+  display: flex;
+}
+.circles {
+  display: none; 
+}
+}
+
+@media only screen and (min-width: 1200px) {
+.main {
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+
+#footer {
+  margin-top: 100px; 
+}
+
+.circles {
+  display: flex; 
+
+
+}
+}
+.orange {
+ background-color: rgba(247, 193, 162, 0.7);  
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ top: 38%; 
+ left: 76%;
+ border-radius: 50%
+}
+.purple {
+ background-color: rgba(207, 130, 213, 0.6);
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 25%; 
+ left: 78%;
+ border-radius: 50%
+
+}
+
+.pink {
+ background-color: rgba(247, 136, 167, 0.6);
+ width: 250px;
+ height: 250px;
+ position: absolute;
+ top: 22%; 
+ left: 62%;
+ border-radius: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+	display: flex; 
+	flex-direction: column;
+	margin-top: 10px; 
+	margin-bottom: 15px; 
+	color: #7E685A;
+}
+
+.topnav a {
+    /*color: purple;*/
+    text-decoration: none;
+    color: #7E685A;
+}
+
+.topnav a:hover {
+   color: #7E685A;
+   
+}
+
+.nav-item {
+	display: flex; 
+	align-content: center;
+	justify-content: center;
+	margin-top: 5px; 
+	font-size: 18px; 
+color: #7E685A;
+	
+}
+
+.testimonialsection {
+	display: flex; 
+	flex-direction: column;
+	border-style: 1px solid gray;  
+	background-color: #AFD275; 
+	text-align: center; 
+	margin: 20px; 
+	padding: 50px; 
+ 	color: #7E685A;
+ 	font-size: 16px; 
+}
+
+.testimonial {
+	display: none; 
+	text-align: center; 
+	color: #C2B9B0;
+
+.firsttestimonial {
+	color: #C2B9B0;
+}
+}
+
+footer {
+	display: flex
+}
+
+.bannerimage {
+	width: 100%; 
+	margin-bottom: 20px; 
+}
+
+body {
+	width: 100%;
+	background-color: #C2CAD0;
+	
+}
+
+.booktoday {
+	display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    width: 30%;
+    font-size: 30px; 
+    background-color: #E7717D; 
+    color: #7E685A;
+    padding: 15px; 
+   font-family: 'Lato', sans-serif;
+}
+
+.booktodaycontainer {
+	background-color: #C2B9B0;
+	padding-top: 10px;
+}
+
+.seemore {
+/*	display: flex;
+    justify-content: center;*/
+    margin: 0 auto; 
+  /*  width: 20%;*/
+    
+  /*  background-color: #E7717D; */
+   margin-bottom: 20px; 
+    padding: 20px; 
+}
+
+.seemoretext {
+display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+   /* width: 30%;*/
+    font-size: 30px; 
+    background-color: #E7717D; 
+    color: #7E685A;
+    padding: 15px; 
+    font-family: 'Lato', sans-serif;
+
+}
+
+.addressmap {
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center; 
+}
+
+.social {
+	margin: 20px; 
+	 margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media only screen and (min-width: 350px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+	.topnav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.nav-item {
+		padding-right: 20px;
+		font-size: 22px; 
+	}
+
+	.testimonial {
+	display: flex; 
+	color: #7E685A;
+	flex-direction: row;
+	padding: 15px; 
+	
+}
+.firsttestimonial {
+	padding: 15px;
+}
+
+.testimonialsection {
+	font-size: 20px; 
+}	
+.seemore {
+	display: none; 
+}
+}
+
+pink #E7717D
+gray #C2CAD0
+tan #C2B9B0
+brown #7E685A
+green #AFD275
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+
+
