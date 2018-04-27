@@ -7,8 +7,8 @@ body {
 #logo {
 	width: 50%;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .topnav {
@@ -20,14 +20,14 @@ body {
 }
 
 .topnav a {
-    /*color: purple;*/
-    text-decoration: none;
-    color: #7E685A;
+	/*color: purple;*/
+	text-decoration: none;
+	color: #7E685A;
 }
 
 .topnav a:hover {
-   color: #7E685A;
-   
+	color: #7E685A;
+
 }
 
 .nav-item {
@@ -36,7 +36,7 @@ body {
 	justify-content: center;
 	margin-top: 5px; 
 	font-size: 18px; 
-color: #7E685A;
+	color: #7E685A;
 	
 }
 
@@ -48,8 +48,8 @@ color: #7E685A;
 	text-align: center; 
 	margin: 20px; 
 	padding: 50px; 
- 	color: #7E685A;
- 	font-size: 16px; 
+	color: #7E685A;
+	font-size: 16px; 
 }
 
 .testimonial {
@@ -57,9 +57,9 @@ color: #7E685A;
 	text-align: center; 
 	color: #C2B9B0;
 
-.firsttestimonial {
-	color: #C2B9B0;
-}
+	.firsttestimonial {
+		color: #C2B9B0;
+	}
 }
 
 footer {
@@ -79,14 +79,14 @@ body {
 
 .booktoday {
 	display: flex;
-    justify-content: center;
-    margin: 0 auto; 
-    width: 30%;
-    font-size: 30px; 
-    background-color: #E7717D; 
-    color: #7E685A;
-    padding: 15px; 
-   font-family: 'Lato', sans-serif;
+	justify-content: center;
+	margin: 0 auto; 
+	width: 30%;
+	font-size: 30px; 
+	background-color: #E7717D; 
+	color: #7E685A;
+	padding: 15px; 
+	font-family: 'Lato', sans-serif;
 }
 
 .booktodaycontainer {
@@ -96,32 +96,32 @@ body {
 
 .seemore {
 /*	display: flex;
-    justify-content: center;*/
-    margin: 0 auto; 
-  /*  width: 20%;*/
-    
-  /*  background-color: #E7717D; */
-   margin-bottom: 20px; 
-    padding: 20px; 
+justify-content: center;*/
+margin: 0 auto; 
+/*  width: 20%;*/
+
+/*  background-color: #E7717D; */
+margin-bottom: 20px; 
+padding: 20px; 
 }
 
 .seemoretext {
-display: flex;
-    justify-content: center;
-    margin: 0 auto; 
-   /* width: 30%;*/
-    font-size: 30px; 
-    background-color: #E7717D; 
-    color: #7E685A;
-    padding: 15px; 
-    font-family: 'Lato', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto; 
+	/* width: 30%;*/
+	font-size: 30px; 
+	background-color: #E7717D; 
+	color: #7E685A;
+	padding: 15px; 
+	font-family: 'Lato', sans-serif;
 
 }
 
 .addressmap {
 	
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 }
 
 footer {
@@ -132,8 +132,8 @@ footer {
 
 .social {
 	margin: 20px; 
-	 margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -153,31 +153,32 @@ footer {
 	}
 
 	.testimonial {
-	display: flex; 
-	color: #7E685A;
-	flex-direction: row;
-	padding: 15px; 
-	
-}
-.firsttestimonial {
-	padding: 15px;
+		display: flex; 
+		color: #7E685A;
+		flex-direction: row;
+		padding: 15px; 
+
+	}
+	.firsttestimonial {
+		padding: 15px;
+	}
+
+	.testimonialsection {
+		font-size: 20px; 
+	}	
+	.seemore {
+		display: none; 
+	}
 }
 
-.testimonialsection {
-	font-size: 20px; 
-}	
-.seemore {
-	display: none; 
-}
-}
 
-pink #E7717D
+/*pink #E7717D
 gray #C2CAD0
 tan #C2B9B0
 brown #7E685A
 green #AFD275
 font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
 
 
 
